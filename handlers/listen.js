@@ -1,4 +1,4 @@
-﻿const fs = require('fs'), login = require('fca-c2x'), { loadCommands, loadEvents, reloadCommandsAndEvents } = require('../lib/CommandsAndEvents'), { client } = require('../lib/Botclient'), LanguageManager = require('../lib/LanguageManager'), { checkForUpdates } = require('../checkUpdate'), { doneAnimation, errAnimation } = require('../logger/index'), { UserInThreadData, getUser, getThread, money, getAllGroupCount, getAllUserCount } = require('./data'), startServer = require('../dashboard/server/app'), lang = new LanguageManager(client);
+﻿const fs = require('fs'), login = require('ws3-fca'), { loadCommands, loadEvents, reloadCommandsAndEvents } = require('../lib/CommandsAndEvents'), { client } = require('../lib/Botclient'), LanguageManager = require('../lib/LanguageManager'), { checkForUpdates } = require('../checkUpdate'), { doneAnimation, errAnimation } = require('../logger/index'), { UserInThreadData, getUser, getThread, money, getAllGroupCount, getAllUserCount } = require('./data'), startServer = require('../dashboard/server/app'), lang = new LanguageManager(client);
 
 async function startBot() {
     try {
