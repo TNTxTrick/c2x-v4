@@ -9,8 +9,8 @@
   "RUN_SERVER_UPTIME": true,
   "LANGUAGE": "vi",
   "ICON_UNSEND": "👍",
-  "PREFIX": "!",
+  "PREFIX": "/",
   "UID_ADMIN": [
-    "100093082543154"
+    "100090168070553"
   ]
 }
